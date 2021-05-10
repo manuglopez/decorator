@@ -1,0 +1,25 @@
+{
+    "name": "mglopez/decorator",
+    "description": "An example of the Decorator Pattern",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Glez",
+            "email": "mglopez@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {"Mglopez\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Mglopez\\Tests\\": "tests/"}
+    }
+}
